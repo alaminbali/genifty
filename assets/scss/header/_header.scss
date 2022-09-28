@@ -110,7 +110,7 @@
             color: var(--color-white);
             font-weight: 400;
             padding: 0  0 0 40px;
-            margin-right: 43px;
+            margin-right: 37px;
             border: 1px solid transparent;
             &:focus{
                 border: 1px solid var(--color-terciary);
@@ -130,7 +130,7 @@
                 }
             }
             &:first-child{
-                margin-right: 30px;
+                margin-right: 24px;
                 @media #{$small-mobile} {
                     margin-right: 15px;
                 }
@@ -150,8 +150,8 @@
             &::after{
                 position: absolute;
                 content: "";
-                height: 50px;
-                width: 50px;
+                height: 52px;
+                width: 52px;
                 background: #ffffff43;
                 opacity: 0.1;
                 border-radius: 50%;
@@ -328,7 +328,7 @@
 ul{
     &.icons{
         padding-left: 0;
-        margin-right: 30px;
+        margin-right: 20px;
     }
     &.social-wrapper{
         padding-left: 0;

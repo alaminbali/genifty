@@ -56,7 +56,7 @@
         transform: scale(1);
     }
     .trending-items_wrapper{
-        margin: 0 8px;
+        margin: 0 10px;
     }
 }
 .mySwiperfluid{
@@ -66,12 +66,16 @@
 }
 
 .swiper.LiveBidding.swiper-container-horizontal {
-    margin-left: 276px;
+    margin-left: 278px;
+    position: relative;
+}
+
+.hidden{
     overflow: hidden;
+    margin-left: 297px;
 }
 
 // liver bedding style
-
 
 .iso-expo-one{
     &.iso-bg{
@@ -81,6 +85,8 @@
                 color: #fff;
                 font-size: 17px;
                 font-weight: 500;
+                max-width: fit-content;
+                margin-left: auto;
                 &.is-checked{
                     color: var(--color-terciary);
                 }
@@ -88,11 +94,6 @@
         }
     }
 }
-
-
-
-
-
 
 .swiper-slide-active{
     transform: scale(1.1);
@@ -105,6 +106,7 @@
     border-radius: 10px;
     margin: 0 15px;
     backdrop-filter: blur(0px);
+    transition: .3s;
     &.live-tranding-count{
         .thumbnail{
             .heart{
@@ -129,6 +131,7 @@
             }
             .title{
                 font-size: 20px;
+                margin-bottom: 5px;
             }
         }
     }
@@ -204,7 +207,7 @@
                     font-style: normal;
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 18px;
+                    font-size: 16px;
                     line-height: 26px;
                 }
             }
@@ -219,7 +222,7 @@
                 }
             }
             span{
-                color: #fff5;
+                color: #8c91d0;
             }
         }
         .product-right{
@@ -273,6 +276,7 @@
 }
 
 
+
 .explore-wrapper{
     &.count-down{
         .trending-items_wrapper{
@@ -322,7 +326,7 @@
             }
             span{
                 &.remaining{
-                    color: #fff5;
+                    color: #8c91d0;
                 }
             }
             .countdown{
@@ -338,19 +342,21 @@
                     }
                     .countdown-value{
                         font-size: 22px;
-                        font-family: "gorditabold";
+                        font-family: "gordita";
                         color: #fff;
                         margin-bottom: 8px;
                         margin-bottom: -2px;
+                        font-weight: 700;
                         @media #{$small-mobile} {
                             font-size: 20px;
                         }
                     }
                     .countdown-heading{
                         font-size: 22px;
-                        font-family: "gorditaregular";
+                        font-family: "gordita";
                         color: #ffffff;
                         margin-bottom: -2px;
+                        font-weight: 700;
                         @media #{$small-mobile} {
                             font-size: 14px;
                         }

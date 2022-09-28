@@ -16,7 +16,7 @@ body {
     line-height: var(--line-height-b1);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "gorditaregular" , sans-serif;
+    font-family: "Gordita" , sans-serif;
     color: var(--color-body);
     font-weight: var(--p-regular);
     position: relative;
@@ -82,9 +82,10 @@ h6,
 .h5,
 .h6 {
     word-break: break-word;
-    font-family: "gorditabold";
+    font-family: "Gordita";
     line-height: 1.4074;
     color: var(--color-heading);
+    font-weight: 900;
 }
 
 h1,

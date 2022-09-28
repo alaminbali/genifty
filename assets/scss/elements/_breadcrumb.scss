@@ -92,7 +92,8 @@
             margin: 0 5px;
             font-size: 16px;
             &.active{
-                color: var(--color-terciary);
+                color: #FFF;
+                font-weight: 500;
             }
             &.deactive{
                 &:hover{

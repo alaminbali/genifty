@@ -25,7 +25,7 @@
         color: #fff;
     }
     .social-wrapper{
-        margin-top: 30px;
+        margin-top: -20px;
     }
 }
 
@@ -147,7 +147,7 @@
                 font-size: 17px;
                 line-height: 24px;
                 color: #ffffffef;
-                font-family: "gorditaregular";
+                font-family: "gordita";
                 position: relative;
                 transition: .3s;
                 &::after{
@@ -206,7 +206,8 @@
                 }
                 span{
                     color: #fff;
-                    font-family: "gorditabold";
+                    font-family: "gordita";
+                    font-weight: 500;
                 }
             }
         }
@@ -223,6 +224,7 @@
                 color: #ffffffef;
                 transition: .3s;
                 min-width: max-content;
+                font-size: 16px;
                 &:first-child{
                     margin: 0;
                 }

@@ -41,7 +41,7 @@
             transition: .5s;
         }
         &:hover{
-            transform: scale(1.02) translateY(-5px);
+            transform: scale(1.02);
             &::after{
                 opacity: 0;
             }
@@ -81,7 +81,7 @@
         transition: .3s;
         backdrop-filter: blur(42px);
         background-color: transparent;
-        padding: 8px 24px;
+        padding: 10px 29px;
         border: 2px solid var(--color-white);
         &::after{
             position: absolute;
@@ -328,6 +328,12 @@ input{
     position: relative;
     transform: translateY(-50%);
 }
+
+
+
+
+
+
 
 
 

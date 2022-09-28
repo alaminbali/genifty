@@ -120,10 +120,10 @@ All Product Style
             margin-top: 30px;
         }
         button{
-            background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, #ffffff66 0%, #ffffff00 100%);
+            background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
             padding: 15px;
             border-radius: 5px;
-            border: 2px solid var(--color-border-one);
+            border: 2px solid #ffffff;
             margin-right: 15px;
             font-size: 17px;
             color: #fff;
@@ -153,18 +153,18 @@ All Product Style
             button{
                 max-width: max-content;
                 margin-right: 20px;
-                padding: 13px 20px;
+                padding: 13px 30px;
                 &.is-checked{
                     background: var(--gradient-one);
                     color: #fff;
                     border: none;
-                    padding: 15px 22px;
+                    padding: 15px 32px;
                 }
                 &:hover{
                     background: var(--gradient-one);
                     color: #fff;
                     border: none;
-                    padding: 15px 22px;
+                    padding: 15px 32px;
                 }
             }
         }

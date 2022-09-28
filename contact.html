@@ -235,10 +235,7 @@
     <!-- start get in touch area -->
     <div class="rts-getin-touch rts-section-gap">
         <div class="container">
-            <div class="row">
-                <h3 class="title text-center mb--0" data-sal-delay="300" data-sal-duration="800" data-sal="slide-up">Get In Touch</h3>
-            </div>
-            <div class="row g-5 mt--50">
+            <div class="row g-5">
                 <!-- single get in touch -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="rts-gt-wrapper text-center" data-sal-delay="300" data-sal-duration="800" data-sal="slide-up">
@@ -311,7 +308,7 @@
                 <!-- message area start -->
                 <div class="col-lg-6">
                     <div class="meassage-wrapper">
-                        <h3 class="title" data-sal-delay="300" data-sal-duration="800" data-sal="slide-up">
+                        <h3 class="title mb--40" data-sal-delay="300" data-sal-duration="800" data-sal="slide-up">
                             Send Us Message
                         </h3>
                         <div id="form-messages"></div>
@@ -332,14 +329,14 @@
                                 <div class="col-lg-12">
                                     <div class="form-group" data-sal-delay="300" data-sal-duration="800" data-sal="slide-up">
                                         <label for="contact-message">Your Message</label>
-                                        <textarea name="contact-message" id="contact-message"></textarea>
+                                        <textarea name="contact-message" id="contact-message" placeholder="Write Your  Message"></textarea>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mt--30">
+                            <div class="row mt--20">
                                 <div class="col-12">
                                     <div class="text-start" data-sal-delay="300" data-sal-duration="800" data-sal="slide-up">
-                                        <input type="submit" class="rts-btn btn-md btn-primary radious-5" value="Submit Now">
+                                        <a id="connect-wallet" href="wallet.html" class="rts-btn btn-primary">Submit Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -444,8 +441,8 @@
 
 
     <!-- The cursor elements -->
-    <div class="cursor cursor--small"></div>
-    <canvas class="cursor cursor--canvas" resize></canvas>
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
 
     <!-- progress Back to top -->
     <div class="progress-wrap">
@@ -467,7 +464,6 @@
     <script src="assets/js/plugins/sal.min.js"></script>
     <script src="assets/js/plugins/paper-core.js"></script>
     <script src="assets/js/plugins/simplex-nois.js"></script>
-    <script src="assets/js/plugins/cursour.js"></script>
     <script src="assets/js/plugins/contact-form.js"></script>
 
     <script src="assets/js/vendor/imageloded.js"></script>
