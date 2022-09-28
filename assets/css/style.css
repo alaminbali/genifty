@@ -12505,7 +12505,7 @@ ul.social-wrapper {
 .rts-btn.btn-secondary::after {
   position: absolute;
   content: "";
-  background: radial-gradient(53.57% 187.75% at 31.9% -49.02%, #ffffff57 0%, #ffffff00 100%) !important;
+  background: radial-gradient(53.57% 187.75% at 31.9% -49.02%, #ffffff2b 0%, #ffffff00 100%) !important;
   height: 100%;
   width: 100%;
   top: 0;
@@ -12600,7 +12600,7 @@ input.rts-btn:hover {
 }
 .button-group-vedio .vedio-play-button-banner span.outer-text {
   color: #FFFFFF;
-  margin-left: 65px;
+  margin-left: 77px;
   font-size: 18px;
 }
 
@@ -12621,6 +12621,10 @@ input.rts-btn:hover {
   border-radius: 50%;
   padding: 18px 20px 18px 28px;
   display: flex;
+  transition: 0.3s;
+}
+.video-play-button:hover::after {
+  transform: translateX(-50%) translateY(-50%) scale(1.1);
 }
 .video-play-button::after {
   content: "";
@@ -12643,12 +12647,12 @@ input.rts-btn:hover {
   z-index: 3;
   width: 0;
   height: 0;
-  border-left: 15px solid #ffffff;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  border-left: 13px solid #ffffff;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
   top: 50%;
   transform: translate(-50%, -50%);
-  left: 50%;
+  left: 43%;
 }
 
 .video-play-button span.outer-text {
